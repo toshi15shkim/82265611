@@ -9,12 +9,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class AaRestController {
 
-    /**
-     * TodoItem 상세 조회
-     *
-     * @param id
-     * @return
-     */
     @GetMapping(value = "/user")
     public ResponseEntity<?> user() {
         return ResponseEntity.ok("82265611");
